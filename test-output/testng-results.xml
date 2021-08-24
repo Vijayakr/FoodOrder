@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-23T22:06:39 MDT" name="Default suite" finished-at="2021-08-23T22:06:39 MDT" duration-ms="41">
+    <groups>
+    </groups>
+    <test started-at="2021-08-23T22:06:39 MDT" name="Default test" finished-at="2021-08-23T22:06:39 MDT" duration-ms="41">
+      <class name="XYZDogShelter.FoodOrder.NegativeTest">
+        <test-method signature="verifyInput(int,int,int,double)[pri:0, instance:XYZDogShelter.FoodOrder.NegativeTest@71c3b41]" started-at="2021-08-23T22:06:39 MDT" name="verifyInput" data-provider="DataSheet_Negative1" finished-at="2021-08-23T22:06:39 MDT" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[40.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInput -->
+        <test-method signature="verifyInput(int,int,int,double)[pri:0, instance:XYZDogShelter.FoodOrder.NegativeTest@71c3b41]" started-at="2021-08-23T22:06:39 MDT" name="verifyInput" data-provider="DataSheet_Negative1" finished-at="2021-08-23T22:06:39 MDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-40.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInput -->
+      </class> <!-- XYZDogShelter.FoodOrder.NegativeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
