@@ -15,6 +15,8 @@ FoodOrder - README.md
 	•	Check the logs to see a successful log
 	•	Run - Maven Test
 	•	Maven will start building the project. Check the Test Results in Eclipse Console 
+	
+	NOTE : Please change the path of FileStream in Base.Java to have the location of data.properties file in your local.
 
 **Project Details**
 
