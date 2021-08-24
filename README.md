@@ -2,6 +2,7 @@
 FoodOrder - README.md
 
 **Import a maven project in Eclipse**
+
 	•	Open Eclipse.
 	•	Select File > Import > option.
 	•	Select Maven Projects Option. Click on Next Button.
@@ -16,6 +17,7 @@ FoodOrder - README.md
 	•	Maven will start building the project. Check the Test Results in Eclipse Console 
 
 **Project Details**
+
 	•	FoodOrder project is developed in Eclipse with Maven and TestNG using Java
 	•	This project is structures as below:
 	⁃	src/main/java - has two java files and a .properties file
@@ -28,6 +30,7 @@ FoodOrder - README.md
 	⁃	pom.xml - this file has all the maven dependencies to run the project.
 
 **Test Details**
+
 	•	Unit Test
 	⁃	testSum() - verify that the total number of dogs is correct
 	⁃	test quantity() - verify the calculation for amount of food to order for next month is correct.
@@ -38,6 +41,7 @@ FoodOrder - README.md
 	⁃	verifyCalculation() - Verify the calculation to order food is correct. Check if the calculated value matches the expected value.
 	
 **Edge Cases**
+
 	⁃	When food to order is zero
 	⁃	When there is surplus food from last month and no need to order the it should return zero and not negative number.
 
